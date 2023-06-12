@@ -1,0 +1,11 @@
+Criar contato
+Editar contato
+Listar contato
+Inserir contato
+Remover contato
+
+Validar cpf
+Validar cnpj
+Validar telefone
+Validar telefone celular
+Validar fax
