@@ -1,10 +1,13 @@
-public abstract class Cliente extends Contato {
+package sistemacontato.Classes;
 
+public abstract class Cliente extends Contato {
+    /* Atributos */
     private String telefoneResidencial;
     private String telefoneTrabalho;
     private String telefoneCelular;
     private String FAX;
     
+    /* Métodos Especiais */
     public String getTelefoneResidencial() {
         return telefoneResidencial;
     }
@@ -36,4 +39,5 @@ public abstract class Cliente extends Contato {
     public void setFAX(String FAX) {
         this.FAX = FAX;
     }
+
 }

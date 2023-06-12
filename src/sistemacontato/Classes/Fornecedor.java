@@ -1,9 +1,12 @@
-public class Fornecedor extends Contato {
+package sistemacontato.Classes;
 
+public class Fornecedor extends Contato {
+    /* Atributos */
     private String CNPJ;
     private String telefoneFixo;
     private String FAX;
 
+    /* Métodos Especiais */
     public String getCNPJ() {
         return CNPJ;
     }
@@ -27,4 +30,5 @@ public class Fornecedor extends Contato {
     public void setFAX(String FAX) {
         this.FAX = FAX;
     }
+
 }

@@ -1,8 +1,11 @@
-public abstract class Contato {
+package sistemacontato.Classes;
 
+public abstract class Contato {
+    /* Atributos */
     private String nome;
     private String email;
 
+    /* Métodos Especiais */
     public String getNome() {
         return nome;
     }
@@ -18,4 +21,5 @@ public abstract class Contato {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
